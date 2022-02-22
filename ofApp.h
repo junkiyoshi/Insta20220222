@@ -20,10 +20,5 @@ public:
 	void dragEvent(ofDragInfo dragInfo) {};
 	void gotMessage(ofMessage msg) {};
 
-	vector<glm::vec2> location_list;
-	vector<float> deg_list;
-	vector<int> param_list;
-
-	vector<ofColor> color_list, color_palette;
-	vector<int> base_color_index_list;
+	vector<ofColor> color_palette;
 };
